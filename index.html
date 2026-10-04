@@ -206,13 +206,6 @@ body{
   box-shadow:0 0 16px rgba(80,220,140,.12);
 }
 
-.joined{
-  margin-top:14px;
-  font-size:17.5px;
-  font-weight:800;
-  color:#eef1f6;
-}
-
 .player{
   margin:26px auto 0;
   display:flex;
@@ -686,6 +679,7 @@ strong{
 }
 
 @media(max-width:560px){
+
   .name{
     font-size:34px;
   }
@@ -746,6 +740,7 @@ strong{
     width:54px;
     height:54px;
   }
+
 }
 </style>
 </head>
@@ -775,9 +770,11 @@ strong{
 </svg>
 
 <div class="bg-fx">
+
   <div class="glow glow-1"></div>
   <div class="glow glow-2"></div>
   <div id="stars"></div>
+
 </div>
 
 <header class="hero">
@@ -785,15 +782,17 @@ strong{
 <div class="hero-inner">
 
 <img
-  class="avatar"
-  id="imgPerfil"
-  alt="avatar"
-  src="https://i.ibb.co/qF2KPsDb/dyashara-thanks-for-the-request-for-best-quality-download-in-my-channel-tag-ideas-pfp-disc.jpg"
+class="avatar"
+id="imgPerfil"
+alt="avatar"
+src="https://i.ibb.co/qF2KPsDb/dyashara-thanks-for-the-request-for-best-quality-download-in-my-channel-tag-ideas-pfp-disc.jpg"
 >
 
 <h1 class="name">
-  <span id="typed"></span>
-  <span class="cursor">|</span>
+
+<span id="typed"></span>
+<span class="cursor">|</span>
+
 </h1>
 
 <div class="badges">
@@ -815,17 +814,13 @@ Verificado
 
 </div>
 
-<p class="joined">
-Entrou em <span id="joined-date">1 de março de 2024</span>
-</p>
-
 <div class="player" id="player">
 
 <img
-  class="capa"
-  id="capa"
-  alt="capa do álbum"
-  src="https://i.ibb.co/PvHjcWjG/images-3.jpg"
+class="capa"
+id="capa"
+alt="capa do álbum"
+src="https://i.ibb.co/PvHjcWjG/images-3.jpg"
 >
 
 <div class="player-mid">
@@ -850,19 +845,33 @@ Entrou em <span id="joined-date">1 de março de 2024</span>
 
 <div class="controls">
 
-<button class="pbtn play" id="btn-play" aria-label="Tocar ou pausar">
+<button
+class="pbtn play"
+id="btn-play"
+aria-label="Tocar ou pausar"
+>
 
-<svg id="ic-play" viewBox="0 0 24 24" fill="currentColor">
+<svg
+id="ic-play"
+viewBox="0 0 24 24"
+fill="currentColor"
+>
 <path d="M8 5v14l11-7z"/>
 </svg>
 
-<svg id="ic-pause" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+<svg
+id="ic-pause"
+viewBox="0 0 24 24"
+fill="currentColor"
+style="display:none"
+>
 <path d="M6 5h4v14H6zm8 0h4v14h-4z"/>
 </svg>
 
 </button>
 
 </div>
+
 </div>
 
 <button class="sound-hint" id="soundHint">
@@ -878,8 +887,11 @@ Entrou em <span id="joined-date">1 de março de 2024</span>
 </div>
 
 <div class="scroll-hint" id="scrollHint">
+
 Role para ver mais
+
 <span class="arr">↓</span>
+
 </div>
 
 </header>
@@ -893,12 +905,14 @@ Role para ver mais
 <ul class="bullets">
 
 <li>
+
 Administrador de comunidades,
 <strong>especialista em Discord</strong>
 e entusiasta de
 <strong>tecnologia</strong>
 e
 <strong>segurança digital</strong>.
+
 </li>
 
 </ul>
@@ -973,7 +987,13 @@ organização de servidores e
 
 <span class="widget-tag">
 
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+<svg
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+>
 <circle cx="12" cy="12" r="10"/>
 <polyline points="12 6 12 12 16 14"/>
 </svg>
@@ -982,17 +1002,56 @@ Fuso horário
 
 </span>
 
-<svg class="analog" viewBox="0 0 100 100" aria-hidden="true">
+<svg
+class="analog"
+viewBox="0 0 100 100"
+aria-hidden="true"
+>
 
-<circle cx="50" cy="50" r="47" fill="#e9eaec"/>
+<circle
+cx="50"
+cy="50"
+r="47"
+fill="#e9eaec"
+/>
 
 <g id="ticks"></g>
 
-<line id="hand-h" class="hand" x1="50" y1="50" x2="50" y2="31" stroke="#3a3f47" stroke-width="3.6" stroke-linecap="round"/>
+<line
+id="hand-h"
+class="hand"
+x1="50"
+y1="50"
+x2="50"
+y2="31"
+stroke="#3a3f47"
+stroke-width="3.6"
+stroke-linecap="round"
+/>
 
-<line id="hand-m" class="hand" x1="50" y1="50" x2="50" y2="24" stroke="#3a3f47" stroke-width="2.6" stroke-linecap="round"/>
+<line
+id="hand-m"
+class="hand"
+x1="50"
+y1="50"
+x2="50"
+y2="24"
+stroke="#3a3f47"
+stroke-width="2.6"
+stroke-linecap="round"
+/>
 
-<line id="hand-s" class="hand" x1="50" y1="57" x2="50" y2="20" stroke="#ff3b30" stroke-width="1.6" stroke-linecap="round"/>
+<line
+id="hand-s"
+class="hand"
+x1="50"
+y1="57"
+x2="50"
+y2="20"
+stroke="#ff3b30"
+stroke-width="1.6"
+stroke-linecap="round"
+/>
 
 <circle cx="50" cy="50" r="3" fill="#ff3b30"/>
 <circle cx="50" cy="50" r="1.2" fill="#fff"/>
@@ -1002,20 +1061,39 @@ Fuso horário
 <div>
 
 <div class="time-row">
-<span id="clock-time">00:00:00</span>
-<span id="clock-ampm">AM</span>
+
+<span id="clock-time">
+00:00:00
+</span>
+
+<span id="clock-ampm">
+AM
+</span>
+
 </div>
 
 <div class="date-row">
-<span id="clock-date">—</span>
-<span class="dot">•</span>
-<span id="clock-tz">—</span>
+
+<span id="clock-date">
+—
+</span>
+
+<span class="dot">
+•
+</span>
+
+<span id="clock-tz">
+—
+</span>
+
 </div>
 
 <div class="yourtime">
+
 Seu horário:
 <span id="your-time">--:--</span>
 <span id="your-diff"></span>
+
 </div>
 
 </div>
@@ -1026,7 +1104,9 @@ Seu horário:
 
 <span class="widget-tag">
 
-<svg><use href="#i-discord"/></svg>
+<svg>
+<use href="#i-discord"/>
+</svg>
 
 Discord
 
@@ -1034,7 +1114,10 @@ Discord
 
 <div class="avatar-sq" aria-hidden="true">
 
-<svg viewBox="0 0 24 24" fill="#fff">
+<svg
+viewBox="0 0 24 24"
+fill="#fff"
+>
 <use href="#i-discord"/>
 </svg>
 
@@ -1050,8 +1133,13 @@ Light @suii #Lobãoapp
 
 <span class="stat">
 
-<svg viewBox="0 0 24 24" fill="currentColor">
+<svg
+viewBox="0 0 24 24"
+fill="currentColor"
+>
+
 <path d="M12 2l2.9 6.2 6.8.9-5 4.7 1.3 6.7L12 17.2 5.9 20.5l1.3-6.7-5-4.7 6.9-.9z"/>
+
 </svg>
 
 <b id="d-friends">128</b>
@@ -1061,7 +1149,13 @@ Light @suii #Lobãoapp
 
 <span class="stat">
 
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+<svg
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+>
 
 <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
 <circle cx="9" cy="7" r="4"/>
@@ -1084,7 +1178,9 @@ href="https://discord.com/users/1390600821506314251"
 target="_blank"
 rel="noopener"
 >
+
 Ver Perfil
+
 </a>
 
 </div>
@@ -1098,64 +1194,141 @@ Ver Perfil
 <div class="tags">
 
 <span class="tag">
-<svg viewBox="0 0 24 24" fill="currentColor">
+
+<svg
+viewBox="0 0 24 24"
+fill="currentColor"
+>
+
 <use href="#i-discord"/>
+
 </svg>
+
 Discord
+
 </span>
 
 <span class="tag">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+
+<svg
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+>
+
 <rect x="5" y="9" width="14" height="10" rx="2.5"/>
 <path d="M12 9V5"/>
 <circle cx="12" cy="3.8" r="1.2" fill="currentColor" stroke="none"/>
 <circle cx="9.5" cy="13.5" r="1.1" fill="currentColor" stroke="none"/>
 <circle cx="14.5" cy="13.5" r="1.1" fill="currentColor" stroke="none"/>
 <path d="M3 12.5v3M21 12.5v3"/>
+
 </svg>
+
 Bots
+
 </span>
 
 <span class="tag">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+
+<svg
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+>
+
 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+
 </svg>
+
 Moderação
+
 </span>
 
 <span class="tag">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+
+<svg
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+>
+
 <path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/>
 <path d="M13 5v2M13 11v2M13 17v2"/>
+
 </svg>
+
 Tickets
+
 </span>
 
 <span class="tag">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+
+<svg
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+>
+
 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
 <path d="M12.8 7.5 9.5 12h2.2l-.9 4.5 3.7-5h-2.3l.6-4z" fill="currentColor" stroke="none"/>
+
 </svg>
+
 Anti-Raid
+
 </span>
 
 <span class="tag">
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+
+<svg
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+stroke-linejoin="round"
+>
+
 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
 <polyline points="9 11.5 11 13.5 15 9.5"/>
+
 </svg>
+
 Verificação
+
 </span>
 
 <span class="tag">
-<svg viewBox="0 0 24 24" fill="currentColor">
+
+<svg
+viewBox="0 0 24 24"
+fill="currentColor"
+>
+
 <path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/>
+
 </svg>
+
 Automação
+
 </span>
 
 <span class="tag">
-<svg viewBox="0 0 24 24" fill="none">
+
+<svg
+viewBox="0 0 24 24"
+fill="none"
+>
+
 <rect x="4.5" y="4.5" width="15" height="15" fill="#7a4f28"/>
 <rect x="4.5" y="4.5" width="15" height="4.6" fill="#59a832"/>
 <rect x="6.5" y="9.1" width="2" height="2" fill="#59a832"/>
@@ -1164,17 +1337,38 @@ Automação
 <rect x="8.5" y="13.5" width="2" height="2" fill="#5d3a1c"/>
 <rect x="13.5" y="15.5" width="2" height="2" fill="#5d3a1c"/>
 <rect x="15.5" y="11.5" width="2" height="2" fill="#5d3a1c"/>
+
 </svg>
+
 Minecraft
+
 </span>
 
 <span class="tag">
 
 <svg viewBox="0 0 24 24">
+
 <g transform="rotate(14 12 12)">
-<rect x="5" y="5" width="14" height="14" rx="1.5" fill="currentColor"/>
-<rect x="9.8" y="9.8" width="4.4" height="4.4" fill="#04060a"/>
+
+<rect
+x="5"
+y="5"
+width="14"
+height="14"
+rx="1.5"
+fill="currentColor"
+/>
+
+<rect
+x="9.8"
+y="9.8"
+width="4.4"
+height="4.4"
+fill="#04060a"
+/>
+
 </g>
+
 </svg>
 
 Roblox
@@ -1183,9 +1377,17 @@ Roblox
 
 <span class="tag">
 
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+<svg
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+>
+
 <rect x="3.5" y="11" width="17" height="10" rx="2"/>
 <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+
 </svg>
 
 Segurança digital
@@ -1202,12 +1404,20 @@ Segurança digital
 
 <span style="display:flex;align-items:center;gap:8px">
 
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+<svg
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+>
+
 <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
 <circle cx="12" cy="12" r="3"/>
+
 </svg>
 
-<span id="viewCount">0</span>
+<span id="viewCount">153</span>
 
 </span>
 
@@ -1215,18 +1425,32 @@ Segurança digital
 
 <span class="loc">
 
-<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+<svg
+viewBox="0 0 24 24"
+fill="none"
+stroke="currentColor"
+stroke-width="2"
+stroke-linecap="round"
+>
+
 <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/>
 <circle cx="12" cy="10" r="3"/>
+
 </svg>
 
-<span id="locText">São Paulo, Brasil</span>
+<span id="locText">
+Maringá, Brasil
+</span>
 
 </span>
 
 </div>
 
-<button class="to-top" id="toTop" aria-label="Voltar ao topo">
+<button
+class="to-top"
+id="toTop"
+aria-label="Voltar ao topo"
+>
 ↑
 </button>
 
@@ -1236,11 +1460,9 @@ const CONFIG = {
 
 nome:'Light @suii',
 
-entrada:'1 de março de 2024',
+local:'Maringá, Brasil',
 
-local:'São Paulo, Brasil',
-
-viewsBase:5872,
+viewsBase:153,
 
 discord:{
   nome:'Light @suii #Lobãoapp',
@@ -1272,7 +1494,6 @@ const $ = id => document.getElementById(id);
    DADOS
 ================================ */
 
-$('joined-date').textContent = CONFIG.entrada;
 $('locText').textContent = CONFIG.local;
 $('d-name').textContent = CONFIG.discord.nome;
 $('d-link').href = CONFIG.discord.link;
@@ -1339,43 +1560,22 @@ setTimeout(type,120);
 
 (() => {
 
-let total=CONFIG.viewsBase;
+const total = 153;
+const el = $('viewCount');
 
-try{
-
-const KEY='perfil_views';
-
-const n=parseInt(
-localStorage.getItem(KEY)||'0',
-10
-);
-
-const add=sessionStorage.getItem('visto')?0:1;
-
-sessionStorage.setItem('visto','1');
-
-localStorage.setItem(KEY,n+add);
-
-total+=n+add;
-
-}catch(e){}
-
-const el=$('viewCount');
-
-const start=performance.now();
-
-const dur=1300;
+const start = performance.now();
+const dur = 1300;
 
 (function anim(t){
 
-const p=Math.min((t-start)/dur,1);
+const p = Math.min((t - start) / dur, 1);
 
-el.textContent=
+el.textContent =
 Math.round(
-total*(1-Math.pow(1-p,3))
+total * (1 - Math.pow(1 - p, 3))
 ).toLocaleString('pt-BR');
 
-if(p<1)
+if(p < 1)
 requestAnimationFrame(anim);
 
 })(start);
